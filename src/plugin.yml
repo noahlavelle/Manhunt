@@ -1,0 +1,12 @@
+name: Manhunt
+main: com.noahlavelle.manhunt.Main
+version: 1.0
+author: Noah Lavelle
+api-version: 1.16
+
+commands:
+  manhunt:
+    description: The runners try to beat the game while they are hunted
+    usage: /manhunt <h / r / start> <player>
+    permission: manhunt.host
+    permission-message: You do not have permission to run that command
